@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>"
+    <title>Website Pengumpulan Data Kapal Repair</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    </header>
+        <h1>Website Pengumpulan Data Kapal repair</h1>
+        <nav>
+            <ul>
+                <li><a href="#data-kapal">Data Kapal</a></li>
+                <li><a href="#kegiatan-repair">Kegiatan Repair</a></li>
+                <li><a href="#file-report">File Report</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="data-kapal">
+            <h2>Data Kapal</h2>
+            <form id="form-data-kapal">
+                <label for="nama-kapal">Nama Kapal</label>
+                <input type="text" id="nama-kapal" name="nama-kapal" required>
+                
+                <label for="nomor-registrasi">Nomor Registrasi</label>
+                <input type="text" id="nomor-registrasi" name="nomor-registrasi" required>
+
+                <button type="submit">Kirim Data</button>
+            </form>
+        </section>
+
+        <section id="kegiatan-repair">
+            <h2>Kegiatan Repair</h2>
+            <form id="form-kegiatan-repair">
+                <label for="kegiatan">Deskripsi Kegiatan:</label>
+                <textarea id="kegiatan" name="kegiatan" reqquired></textarea>
+
+                <label for="tanggal-repair">Tanggal repair</label>
+                <input type="date" id="tanggal-repair" name="tanggal-repair" required>
+
+                <button type="submit">Kirim Kegiatan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kapal repair - Semua Hak Dilindungi</p>
+    </footer>
+
+    <script src="js/scrip.js"></script>
+</body>
+</html>
